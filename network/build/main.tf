@@ -10,7 +10,3 @@ data "aws_availability_zone" "wayfinder" {
 locals {
   az_count = max(var.layout_private_subnets, var.layout_public_subnets)
 }
-
-provider aws {
-  region = var.region
-}
