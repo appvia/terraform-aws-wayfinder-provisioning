@@ -8,11 +8,6 @@ variable "kubernetes_version" {
   type        = string
 }
 
-variable "region" {
-  description = "The region in which to build the cluster"
-  type        = string
-}
-
 variable "vpc_id" {
   description = ""
   type        = string
