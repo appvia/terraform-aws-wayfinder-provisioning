@@ -8,11 +8,6 @@ variable "cidr_node" {
   type        = string
 }
 
-variable "region" {
-  description = "The region in which to build the network"
-  type        = string
-}
-
 variable "layout_private_subnets" {
   description = "The number of private subnets to created"
   type        = number
